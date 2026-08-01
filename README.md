@@ -1,6 +1,7 @@
 # Local conditional profile likelihoods in IDM-DR cosmology
 
 This repository accompanies the manuscript **“A Calibration-Aware Local Sensitivity Study of Interacting Dark Matter-Dark Radiation Cosmology with Planck 2018, DESI DR2, and Pantheon+.”**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21741405.svg)](https://doi.org/10.5281/zenodo.21741405)
 
 ## Main result
 
@@ -47,9 +48,13 @@ Independent likelihood reruns require a compatible custom CLASS build and the th
 - `manuscript/`: editable DOCX and submission PDF
 - `class_source/`: source-provenance note and recorded hash
 
-## Citation and release
+## Archived release
 
-Repository: https://github.com/parvgidiya/idmdr-modern-profile-likelihood. A Zenodo DOI will be added after the first public release is archived.
+The reproducibility package accompanying this study is permanently archived on Zenodo.
+
+**DOI:** [10.5281/zenodo.21741405](https://doi.org/10.5281/zenodo.21741405)
+
+**GitHub:** https://github.com/parvgidiya/idmdr-modern-profile-likelihood
 
 
 ## Final tight refinement
