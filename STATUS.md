@@ -14,3 +14,10 @@ Final retained point:
 - conservative three-coordinate `Delta AIC = +4.693639334968`
 
 The point remains at the lower tested `N_idr` boundary. The repository does not claim a continuous optimum, posterior constraint, confidence interval, or global model preference.
+
+## Archival status
+
+Version 1.0.0 has been publicly released and permanently archived on Zenodo.
+
+- GitHub: https://github.com/parvgidiya/idmdr-modern-profile-likelihood
+- DOI: https://doi.org/10.5281/zenodo.21741405
