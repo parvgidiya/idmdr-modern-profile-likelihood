@@ -1,0 +1,10 @@
+{
+  "calibration_sigma": 0.0025,
+  "lcdm_calibration_penalty": 0.024593766976003437,
+  "best_calibration_penalty_using_reported_A_planck": 0.02509055999999391,
+  "delta_chi2_effective_approx": -0.9279760208683001,
+  "delta_AIC_equal_dimension_approx": -0.9279760208683001,
+  "delta_AIC_local_one_coordinate_approx": 1.0720239791316999,
+  "delta_AIC_conservative_three_coordinates_approx": 5.0720239791317,
+  "note": "Best-point A_planck is available only at displayed precision in the supplied stdout; values are therefore approximate at the sub-0.001 level."
+}

@@ -1,0 +1,24 @@
+{
+  "interaction": {
+    "f_idm": 0.0035,
+    "N_idr": 0.033,
+    "a_idm_dr": 47612.96,
+    "nindex_idm_dr": 4,
+    "idr_nature": "free_streaming"
+  },
+  "rank": 6,
+  "profile": "central",
+  "f_idm": 0.0035,
+  "N_idr": 0.033,
+  "a_idm_dr": 47612.96,
+  "exact_chi2": 2427.051083129154,
+  "delta_best": 0.375371227,
+  "delta_lcdm": -0.553101587,
+  "gain_lcdm": 0.553101587,
+  "delta_central": 0.0,
+  "H0": 68.579856,
+  "Omega_m": 0.300374019,
+  "sigma8": 0.816258876,
+  "S8": 0.816767544,
+  "fixed_cosmology_chi2": 2444.283891763638
+}

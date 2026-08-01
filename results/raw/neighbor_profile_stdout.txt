@@ -1,0 +1,332 @@
+========================================================================================
+MODERN IDM–DR SIX-NEIGHBOR CONTINUATION PROFILE
+========================================================================================
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/f_low', with prefix 'f_low_bobyqa_350'
+Cobaya    : 3.6.2
+Py-BOBYQA : 1.5.0
+CLASS     : /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312
+
+Central continuation start:
+omega_b     : 0.0225088720
+omega_cdm   : 0.1181188000
+H0          : 68.5798560000
+tau_reio    : 0.0712517450
+logA        : 3.0716758000
+n_s         : 0.9721550700
+A_planck    : 1.0001073000
+
+Central exact χ²: 2427.051083129154
+ΛCDM exact χ²  : 2427.604184715953
+
+########################################################################################
+NEIGHBOR 1/6: f_low
+########################################################################################
+f_idm=0.002, N_idr=0.033, a_idm_dr=47612.96
+Starting controlled continuation.
+Maximum evaluations: 350
+rhoend            : 0.05
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/f_low', with prefix 'f_low_bobyqa_350'
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261201
+[minimize] *WARNING* This run has been SEEDED with seed 261201
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+[minimize] {'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.39
+[minimize] -log(posterior) minimized to 1198.39
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.393674  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816768  147.277282  13.736084  11.528633  1009.449754  1405.967136     -15.079087        -15.079087  2426.945523                  22.618594                 402.448409                                       584.382751           11.528633            1405.967136
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.393674  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816768  147.277282  13.736084  11.528633  1009.449754  1405.967136     -15.079087        -15.079087  2426.945523                  22.618594                 402.448409                                       584.382751           11.528633            1405.967136
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+Completed minimization in 29.94 minutes.
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/f_high', with prefix 'f_high_bobyqa_350'
+Optimizer χ² : 2426.945500000
+Exact χ²     : 2426.945523114
+Δχ² vs ΛCDM  : -0.658661602
+Δχ² vs central: -0.105560016
+
+########################################################################################
+NEIGHBOR 2/6: f_high
+########################################################################################
+f_idm=0.005, N_idr=0.033, a_idm_dr=47612.96
+Starting controlled continuation.
+Maximum evaluations: 350
+rhoend            : 0.05
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/f_high', with prefix 'f_high_bobyqa_350'
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261202
+[minimize] *WARNING* This run has been SEEDED with seed 261202
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+[minimize] {'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.4
+[minimize] -log(posterior) minimized to 1198.4
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.395129  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816768  147.277283  13.736084   11.52863  1009.452667  1405.967136     -15.079087        -15.079087  2426.948433                  22.618478                 402.448409                                        584.38578            11.52863            1405.967136
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.395129  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816768  147.277283  13.736084   11.52863  1009.452667  1405.967136     -15.079087        -15.079087  2426.948433                  22.618478                 402.448409                                        584.38578            11.52863            1405.967136
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+Completed minimization in 29.99 minutes.
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/N_low', with prefix 'N_low_bobyqa_350'
+Optimizer χ² : 2426.948400000
+Exact χ²     : 2426.948433010
+Δχ² vs ΛCDM  : -0.655751706
+Δχ² vs central: -0.102650119
+
+########################################################################################
+NEIGHBOR 3/6: N_low
+########################################################################################
+f_idm=0.0035, N_idr=0.02, a_idm_dr=47612.96
+Starting controlled continuation.
+Maximum evaluations: 350
+rhoend            : 0.05
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/N_low', with prefix 'N_low_bobyqa_350'
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261203
+[minimize] *WARNING* This run has been SEEDED with seed 261203
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+[minimize] {'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.26
+[minimize] -log(posterior) minimized to 1198.26
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8    rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    1198.25757  0.022552   0.117933  68.572617  0.070429  3.070153  0.971329  0.999604  2.154519e-09  0.300135  0.815058  0.815242  147.34416  13.740596  11.387525  1009.270155  1406.015281     -15.078911        -15.078911  2426.672961                  22.783483                 401.992272                                         584.4944           11.387525            1406.015281
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8    rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    1198.25757  0.022552   0.117933  68.572617  0.070429  3.070153  0.971329  0.999604  2.154519e-09  0.300135  0.815058  0.815242  147.34416  13.740596  11.387525  1009.270155  1406.015281     -15.078911        -15.078911  2426.672961                  22.783483                 401.992272                                         584.4944           11.387525            1406.015281
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+Completed minimization in 30.43 minutes.
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/N_high', with prefix 'N_high_bobyqa_350'
+Optimizer χ² : 2426.673000000
+Exact χ²     : 2426.675711902
+Δχ² vs ΛCDM  : -0.928472814
+Δχ² vs central: -0.375371227
+
+########################################################################################
+NEIGHBOR 4/6: N_high
+########################################################################################
+f_idm=0.0035, N_idr=0.05, a_idm_dr=47612.96
+Starting controlled continuation.
+Maximum evaluations: 350
+rhoend            : 0.05
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/N_high', with prefix 'N_high_bobyqa_350'
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261204
+[minimize] *WARNING* This run has been SEEDED with seed 261204
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+[minimize] {'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.79
+[minimize] -log(posterior) minimized to 1198.79
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8    rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.794244  0.022541   0.117988  68.783894  0.070477  3.070133  0.972544  1.000132  2.154477e-09  0.298385  0.814438  0.812243  147.19118  13.720778  10.859471  1010.529424  1406.379667     -15.090037        -15.090037  2427.768562                  22.494453                 401.943311                                        586.09166           10.859471            1406.379667
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8    rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.794244  0.022541   0.117988  68.783894  0.070477  3.070133  0.972544  1.000132  2.154477e-09  0.298385  0.814438  0.812243  147.19118  13.720778  10.859471  1010.529424  1406.379667     -15.090037        -15.090037  2427.768562                  22.494453                 401.943311                                        586.09166           10.859471            1406.379667
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+Completed minimization in 31.58 minutes.
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/a_low', with prefix 'a_low_bobyqa_350'
+Optimizer χ² : 2427.768600000
+Exact χ²     : 2427.755750607
+Δχ² vs ΛCDM  : +0.151565891
+Δχ² vs central: +0.704667478
+
+########################################################################################
+NEIGHBOR 5/6: a_low
+########################################################################################
+f_idm=0.0035, N_idr=0.033, a_idm_dr=30000.0
+Starting controlled continuation.
+Maximum evaluations: 350
+rhoend            : 0.05
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/a_low', with prefix 'a_low_bobyqa_350'
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261205
+[minimize] *WARNING* This run has been SEEDED with seed 261205
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+[minimize] {'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.39
+[minimize] -log(posterior) minimized to 1198.39
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.389415  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816768  147.277282  13.736084  11.528633  1009.441235  1405.967136     -15.079087        -15.079087  2426.937004                  22.618571                 402.448409                                       584.374255           11.528633            1405.967136
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.389415  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816768  147.277282  13.736084  11.528633  1009.441235  1405.967136     -15.079087        -15.079087  2426.937004                  22.618571                 402.448409                                       584.374255           11.528633            1405.967136
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+Completed minimization in 29.57 minutes.
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/a_high', with prefix 'a_high_bobyqa_350'
+Optimizer χ² : 2426.937000000
+Exact χ²     : 2426.937004234
+Δχ² vs ΛCDM  : -0.667180482
+Δχ² vs central: -0.114078896
+
+########################################################################################
+NEIGHBOR 6/6: a_high
+########################################################################################
+f_idm=0.0035, N_idr=0.033, a_idm_dr=70000.0
+Starting controlled continuation.
+Maximum evaluations: 350
+rhoend            : 0.05
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/runs/a_high', with prefix 'a_high_bobyqa_350'
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261206
+[minimize] *WARNING* This run has been SEEDED with seed 261206
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+[minimize] {'omega_b': np.float64(0.022508872), 'omega_cdm': np.float64(0.1181188), 'H0': np.float64(68.579856), 'tau_reio': np.float64(0.071251745), 'logA': np.float64(3.0716758), 'n_s': np.float64(0.97215507), 'A_planck': np.float64(1.0001073)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.39
+[minimize] -log(posterior) minimized to 1198.39
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    1198.38681  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816767  147.277283  13.736084  11.528629  1009.43603  1405.967136     -15.079087        -15.079087  2426.931795                  22.618554                 402.448409                                       584.369067           11.528629            1405.967136
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO   chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0    1198.38681  0.022509   0.118119  68.579856  0.071252  3.071676  0.972155  0.999607  2.157803e-09  0.300374  0.816259  0.816767  147.277283  13.736084  11.528629  1009.43603  1405.967136     -15.079087        -15.079087  2426.931795                  22.618554                 402.448409                                       584.369067           11.528629            1405.967136
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+Completed minimization in 28.56 minutes.
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+Optimizer χ² : 2426.931800000
+Exact χ²     : 2426.931795165
+Δχ² vs ΛCDM  : -0.672389551
+Δχ² vs central: -0.119287964
+
+========================================================================================
+COMPLETE SEVEN-POINT MODERN IDM–DR PROFILE
+========================================================================================
+ rank profile       f_idm       N_idr        a_idm_dr     exact_chi2  delta_chi2_from_best_idmdr  delta_chi2_vs_lcdm  chi2_improvement_over_lcdm  delta_chi2_vs_central           H0  derived__Omega_m  derived__sigma8  derived__S8
+    1   N_low 0.003500000 0.020000000 47612.960000000 2426.675711902                 0.000000000        -0.928472814                 0.928472814           -0.375371227 68.572617000       0.300135081      0.815058490  0.815241967
+    2  a_high 0.003500000 0.033000000 70000.000000000 2426.931795165                 0.256083263        -0.672389551                 0.672389551           -0.119287964 68.579856000       0.300374019      0.816258792  0.816767460
+    3   a_low 0.003500000 0.033000000 30000.000000000 2426.937004234                 0.261292332        -0.667180482                 0.667180482           -0.114078896 68.579856000       0.300374019      0.816258893  0.816767562
+    4   f_low 0.002000000 0.033000000 47612.960000000 2426.945523114                 0.269811211        -0.658661602                 0.658661602           -0.105560016 68.579856000       0.300374019      0.816258882  0.816767551
+    5  f_high 0.005000000 0.033000000 47612.960000000 2426.948433010                 0.272721108        -0.655751706                 0.655751706           -0.102650119 68.579856000       0.300374019      0.816258852  0.816767521
+    6 central 0.003500000 0.033000000 47612.960000000 2427.051083129                 0.375371227        -0.553101587                 0.553101587            0.000000000 68.579856000       0.300374019      0.816258876  0.816767544
+    7  N_high 0.003500000 0.050000000 47612.960000000 2427.755750607                 1.080038705         0.151565891                -0.151565891            0.704667478 68.783894000       0.298385013      0.814437969  0.812242834
+
+Best interaction point:
+Profile   : N_low
+f_idm     : 0.0035
+N_idr     : 0.02
+a_idm_dr  : 47612.96
+IDM–DR χ² : 2426.675711902061
+ΛCDM χ²   : 2427.604184715953
+Raw gain  : +0.928472813892
+ΔAIC with three-interaction penalty: +5.071527186108
+
+Saved CSV:
+/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/summary/modern_idmdr_seven_point_profile.csv
+
+Saved JSON:
+/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/neighbor_continuation_profile/summary/modern_idmdr_seven_point_profile.json
+
+========================================================================================
+SUCCESS
+========================================================================================

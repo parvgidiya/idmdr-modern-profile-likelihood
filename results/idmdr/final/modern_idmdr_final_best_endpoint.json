@@ -1,0 +1,43 @@
+{
+  "model": "modern_fixed_interaction_IDM_DR",
+  "selected_stage": "rho0002",
+  "interaction_parameters": {
+    "f_idm": 0.0035,
+    "N_idr": 0.02,
+    "a_idm_dr": 47612.96,
+    "nindex_idm_dr": 4,
+    "idr_nature": "free_streaming"
+  },
+  "sampled_parameters": {
+    "omega_b": 0.022536034,
+    "omega_cdm": 0.1180372,
+    "H0": 68.508092,
+    "tau_reio": 0.070244317,
+    "logA": 3.0706545,
+    "n_s": 0.97154657,
+    "A_planck": 1.0001052
+  },
+  "derived_parameters": {
+    "Omega_m": 0.300887658174,
+    "sigma8": 0.815731209929,
+    "S8": 0.816937136006,
+    "rs_drag": 147.334417218,
+    "age": 13.7439109131
+  },
+  "exact_statistics": {
+    "idmdr_chi2_data": 2426.320647091497,
+    "lcdm_chi2_data": 2427.604184715953,
+    "delta_chi2_data_idmdr_minus_lcdm": -1.2835376244561303,
+    "idmdr_calibration_penalty": 0.0017707263999971882,
+    "lcdm_calibration_penalty": 0.024593766976003437,
+    "idmdr_chi2_eff": 2426.322417817897,
+    "lcdm_chi2_eff": 2427.628778482929,
+    "delta_chi2_eff_idmdr_minus_lcdm": -1.3063606650321162
+  },
+  "AIC_diagnostics": {
+    "equal_dimension_delta_AIC": -1.3063606650321162,
+    "local_one_coordinate_delta_AIC": 0.6936393349678838,
+    "conservative_three_coordinate_delta_AIC": 4.693639334967884
+  },
+  "interpretation": "Lowest tightly refined endpoint at the lowest tested N_idr grid value; not a continuous optimum, uncertainty interval, or global minimum."
+}

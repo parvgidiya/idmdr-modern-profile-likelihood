@@ -1,0 +1,195 @@
+============================================================================================
+FINAL TIGHT REFINEMENT OF MODERN IDM–DR N_low
+============================================================================================
+Cobaya    : 3.6.2
+Py-BOBYQA : 1.5.0
+CLASS     : /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312
+
+============================================================================================
+STARTING BEST SCREENING ENDPOINT
+============================================================================================
+Interaction point:
+f_idm         = 0.0035
+N_idr         = 0.020
+a_idm_dr      = 47612.96
+nindex_idm_dr = 4
+idr_nature    = free_streaming
+
+Coarse exact IDM–DR χ² : 2426.675711902061
+Exact ΛCDM χ²          : 2427.604184715953
+Initial raw improvement: 0.928472813892
+
+Starting profiled parameters:
+omega_b     : 0.022552236
+omega_cdm   : 0.11793326
+H0          : 68.572617
+tau_reio    : 0.070429294
+logA        : 3.0701528
+n_s         : 0.97132914
+A_planck    : 0.9996045
+
+============================================================================================
+REFINEMENT 1/3: rho005
+============================================================================================
+Starting exact χ² : 2426.675711902061
+rhoend            : 0.005
+max_evals         : 1800
+Output prefix     : /content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs/N_low_final_rho005
+✓ Completed stage and full-precision point already exist.
+✓ Existing exact reevaluation loaded.
+
+Previous exact χ² : 2426.675711902061
+New exact χ²      : 2426.546777488320
+Improvement       : +0.128934413742
+Gain over ΛCDM    : +1.057407227634
+
+============================================================================================
+REFINEMENT 2/3: rho001
+============================================================================================
+Starting exact χ² : 2426.546777488320
+rhoend            : 0.001
+max_evals         : 3000
+Output prefix     : /content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs/N_low_final_rho001
+✓ Completed stage and full-precision point already exist.
+✓ Existing exact reevaluation loaded.
+
+Previous exact χ² : 2426.546777488320
+New exact χ²      : 2426.378541062237
+Improvement       : +0.168236426083
+Gain over ΛCDM    : +1.225643653716
+
+============================================================================================
+REFINEMENT 3/3: rho0002
+============================================================================================
+Starting exact χ² : 2426.378541062237
+rhoend            : 0.0002
+max_evals         : 5000
+Output prefix     : /content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs/N_low_final_rho0002
+INFO:output:Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs', with prefix 'N_low_final_rho0002'
+
+Cobaya may display only 'Starting run 1/1' until this stage finishes.
+[output] Output to be read-from/written-into folder '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs', with prefix 'N_low_final_rho0002'
+INFO:output:Found existing info files with the requested output prefix: '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs/N_low_final_rho0002'
+[output] Found existing info files with the requested output prefix: '/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/runs/N_low_final_rho0002'
+INFO:output:Will delete previous products ('force' was requested).
+[output] Will delete previous products ('force' was requested).
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+WARNING:minimize:This run has been SEEDED with seed 261303
+[minimize] *WARNING* This run has been SEEDED with seed 261303
+INFO:minimize:Initializing
+[minimize] Initializing
+INFO:minimize:Run 1/1 will start from random initial point:
+[minimize] Run 1/1 will start from random initial point:
+INFO:minimize:{'omega_b': np.float64(0.02253403), 'omega_cdm': np.float64(0.11799907), 'H0': np.float64(68.513348), 'tau_reio': np.float64(0.070391192), 'logA': np.float64(3.0705803), 'n_s': np.float64(0.97149793), 'A_planck': np.float64(1.0001048)}
+[minimize] {'omega_b': np.float64(0.02253403), 'omega_cdm': np.float64(0.11799907), 'H0': np.float64(68.513348), 'tau_reio': np.float64(0.070391192), 'logA': np.float64(3.0705803), 'n_s': np.float64(0.97149793), 'A_planck': np.float64(1.0001048)}
+WARNING:prior:There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[prior] *WARNING* There are unbounded parameters (['A_planck']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+WARNING:prior:Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+INFO:minimize:Starting run 1/1
+[minimize] Starting run 1/1
+INFO:minimize:Run 1/1 converged.
+[minimize] Run 1/1 converged.
+INFO:minimize:-log(posterior) minimized to 1198.06
+[minimize] -log(posterior) minimized to 1198.06
+INFO:minimize:Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.062457  0.022536   0.118037  68.508092  0.070244  3.070655  0.971547  1.000105  2.155601e-09  0.300888  0.815731  0.816937  147.334415  13.743911  11.785628  1008.655302  1405.865062     -15.090539        -15.090539  2426.305992                  22.699082                 401.881574                                       584.074646           11.785628            1405.865062
+[minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b  omega_cdm         H0  tau_reio      logA       n_s  A_planck           A_s   Omega_m    sigma8        S8     rs_drag        age  chi2__BAO    chi2__CMB     chi2__SN  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_highl_plik.TTTEEE_lite_native  chi2__bao.desi_dr2  chi2__sn.pantheonplus
+0     1.0   1198.062457  0.022536   0.118037  68.508092  0.070244  3.070655  0.971547  1.000105  2.155601e-09  0.300888  0.815731  0.816937  147.334415  13.743911  11.785628  1008.655302  1405.865062     -15.090539        -15.090539  2426.305992                  22.699082                 401.881574                                       584.074646           11.785628            1405.865062
+INFO:classy:`classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+WARNING: Could not extract the in-memory minimum. Falling back to .minimum.txt.
+
+✓ Minimization completed in 60.89 minutes.
+Running exact fixed-point reevaluation...
+[classy] `classy` module loaded successfully from /content/drive/MyDrive/IDM_DR_Project/cobaya_packages/code/classy/build/lib.linux-x86_64-cpython-312/classy
+INFO:bao.desi_dr2:Initialized.
+[bao.desi_dr2] Initialized.
+
+Previous exact χ² : 2426.378541062237
+New exact χ²      : 2426.320647091497
+Improvement       : +0.057893970739
+Gain over ΛCDM    : +1.283537624456
+
+============================================================================================
+FINAL TIGHTLY REFINED MODERN IDM–DR RESULT
+============================================================================================
+Selected stage          : rho0002
+IDM–DR exact data χ²    : 2426.320647091497
+ΛCDM exact data χ²      : 2427.604184715953
+Data Δχ², IDM–DR−ΛCDM   : -1.283537624456
+IDM–DR calibration term : 0.001770726400
+ΛCDM calibration term   : 0.024593766976
+IDM–DR effective χ²     : 2426.322417817898
+ΛCDM effective χ²       : 2427.628778482929
+Effective Δχ²           : -1.306360665032
+
+AIC diagnostics:
+Equal-dimension ΔAIC    : -1.306360665032
+Local-slice ΔAIC        : +0.693639334968
+Conservative ΔAIC       : +4.693639334968
+
+Final sampled parameters:
+omega_b     : 0.022536034
+omega_cdm   : 0.1180372
+H0          : 68.508092
+tau_reio    : 0.070244317
+logA        : 3.0706545
+n_s         : 0.97154657
+A_planck    : 1.0001052
+
+Final derived parameters:
+A_s         : 2.15560064653e-09
+Omega_m     : 0.300887658174
+sigma8      : 0.815731209929
+S8          : 0.816937136006
+rs_drag     : 147.334417218
+age         : 13.7439109131
+
+Parameter shifts from ΛCDM:
+H0          : +0.287216
+omega_b     : +7.9152e-05
+omega_cdm   : +5.37e-05
+tau_reio    : -0.0010503
+logA        : -0.0008677
+n_s         : +0.00284904
+A_planck    : +0.00049726
+Omega_m     : -0.00225340890783
+sigma8      : -0.000234109593762
+S8          : -0.00328873001241
+rs_drag     : -0.20356263391
+age         : -0.0290791873569
+
+Exact likelihood components:
+                               likelihood           loglike              chi2
+                      planck_2018_lowl.TT  -11.349541707374   22.699083414748
+                      planck_2018_lowl.EE -200.940787183501  401.881574367001
+planck_2018_highl_plik.TTTEEE_lite_native -292.044652684159  584.089305368318
+                             bao.desi_dr2   -5.892810804104   11.785621608207
+                          sn.pantheonplus -702.932531166612 1405.865062333223
+
+Refinement history:
+  stage         rhoend        exact_chi2  improvement_from_previous  improvement_over_lcdm
+ rho005 0.005000000000 2426.546777488320             0.128934413742         1.057407227634
+ rho001 0.001000000000 2426.378541062237             0.168236426083         1.225643653716
+rho0002 0.000200000000 2426.320647091497             0.057893970739         1.283537624456
+
+Saved final JSON:
+/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/summary/modern_idmdr_final_best_endpoint.json
+
+Saved final CSV:
+/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/summary/modern_idmdr_final_best_endpoint.csv
+
+Saved final components:
+/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/summary/modern_idmdr_final_best_chi2_components.csv
+
+Saved refinement history:
+/content/drive/MyDrive/IDMDR_YSJ/upgrade_global_mcmc_2026/03_modern_idmdr/final_N_low_refinement/summary/modern_idmdr_N_low_refinement_history.csv
+
+============================================================================================
+The lowest exact stage was selected automatically. Review the refinement history before freezing the paper.
+============================================================================================

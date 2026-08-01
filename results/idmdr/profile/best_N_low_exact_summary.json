@@ -1,0 +1,36 @@
+{
+  "status": "independently reevaluated lowest tested endpoint in seven-point local screen",
+  "interaction": {
+    "f_idm": 0.0035,
+    "N_idr": 0.02,
+    "a_idm_dr": 47612.96,
+    "nindex_idm_dr": 4,
+    "idr_nature": "free_streaming"
+  },
+  "exact_chi2_data": 2426.675711902061,
+  "delta_chi2_vs_lcdm": -0.928472813892,
+  "reported_optimizer_coordinates": {
+    "omega_b": 0.022552,
+    "omega_cdm": 0.117933,
+    "H0": 68.572617,
+    "tau_reio": 0.070429,
+    "logA": 3.070153,
+    "n_s": 0.971329,
+    "A_planck": 0.999604,
+    "Omega_m": 0.300135081,
+    "sigma8": 0.81505849,
+    "S8": 0.815241967,
+    "rs_drag": 147.34416,
+    "age": 13.740596
+  },
+  "optimizer_stage_component_chi2": {
+    "Planck low-l TT": 22.783483,
+    "Planck low-l EE": 401.992272,
+    "Planck high-l TTTEEE-lite": 584.4944,
+    "DESI DR2 BAO": 11.387525,
+    "Pantheon+": 1406.015281
+  },
+  "optimizer_stage_component_sum": 2426.672961,
+  "exact_minus_optimizer_total": 0.002750902060597582,
+  "provenance_note": "Exact total and derived parameters were printed by the completed continuation-profile cell. Coordinates and component values are the displayed optimizer-stage values and are therefore rounded."
+}

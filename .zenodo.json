@@ -1,0 +1,27 @@
+{
+  "title": "A Calibration-Aware Local Sensitivity Study of Interacting Dark Matter-Dark Radiation Cosmology",
+  "description": "Reproducibility package for a seven-point local sensitivity analysis built from conditional profile endpoints using Planck 2018, DESI DR2 BAO, and Pantheon+.",
+  "creators": [
+    {
+      "name": "Gidiya, Parv",
+      "type": "Researcher",
+      "affiliation": "DPS Monarch International School"
+    }
+  ],
+  "keywords": [
+    "cosmology",
+    "interacting dark matter",
+    "dark radiation",
+    "profile likelihood",
+    "Planck 2018",
+    "DESI DR2",
+    "Pantheon+",
+    "CLASS",
+    "Cobaya"
+  ],
+  "license": {
+    "id": "MIT"
+  },
+  "upload_type": "software",
+  "version": "1.0.0"
+}
