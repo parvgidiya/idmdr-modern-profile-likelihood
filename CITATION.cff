@@ -8,4 +8,6 @@ type: software
 version: 1.0.0
 date-released: 2026-08-01
 repository-code: "https://github.com/parvgidiya/idmdr-modern-profile-likelihood"
+doi: "10.5281/zenodo.21741405"
+url: "https://doi.org/10.5281/zenodo.21741405"
 license: MIT
